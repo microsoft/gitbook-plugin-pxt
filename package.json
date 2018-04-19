@@ -1,0 +1,26 @@
+{
+    "name": "gitbook-plugin-pxt",
+    "description": "GitBook plugin for Microsoft MakeCode",
+    "main": "index.js",
+    "version": "0.0.2",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/Microsoft/gitbook-plugin-pxt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Microsoft/gitbook-plugin-pxt.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Microsoft/gitbook-plugin-pxt/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "baseUrl": {
+                "type": "string",
+                "default": "makecode.microbit.org"
+            }
+        }
+    }
+}

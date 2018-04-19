@@ -1,3 +1,42 @@
+Gitbook plugin for Microsoft MakeCode
+==============
+
+### How to use the plugin?
+
+Add the below to your `book.json` file, then run `gitbook install` :
+
+```json
+{
+    "plugins": [
+        "pxt"
+    ]
+}
+```
+
+Configure your base MakeCode site by adding this to your `book.json`:
+
+```json
+{
+    "pluginsConfig": {
+        "pxt": {
+            "base": "makecode.microbit.org"
+        }
+    }
+}
+```
+
+You can now code blocks in your page markdown like so:
+
+```markdown
+```blocks
+basic.showString("Hello world");
+```
+```
+
+## License
+
+MIT
+
 
 # Contributing
 
