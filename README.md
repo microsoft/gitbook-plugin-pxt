@@ -27,11 +27,11 @@ Configure your base MakeCode site by adding this to your `book.json`:
 
 You can now code blocks in your page markdown like so:
 
-```markdown
+````markdown
 ```blocks
 basic.showString("Hello world");
 ```
-```
+````
 
 ## License
 
